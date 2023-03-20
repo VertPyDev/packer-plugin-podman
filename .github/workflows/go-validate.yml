@@ -7,7 +7,7 @@ name: "Go Validate"
 on:
   push:
     tags-ignore:
-      - '*'
+      - 'v*'
   pull_request:
 
 permissions:
