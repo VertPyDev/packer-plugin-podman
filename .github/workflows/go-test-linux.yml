@@ -7,9 +7,13 @@ name: "Go Test Linux"
 
 on:
   push:
+    branches:
+      - '*'
     tags-ignore:
       - 'v*'
   pull_request:
+    branches:
+      - main
 
 permissions:
   contents: read
