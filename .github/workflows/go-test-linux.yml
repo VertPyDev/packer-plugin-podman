@@ -7,6 +7,8 @@ name: "Go Test Linux"
 
 on:
   push:
+    tags-ignore:
+      - '*'
   pull_request:
 
 permissions:

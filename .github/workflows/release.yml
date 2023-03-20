@@ -6,6 +6,10 @@ on:
   push:
     tags:
       - 'v*'
+
+permissions:
+  contents: write
+
 jobs:
   get-go-version:
     runs-on: ubuntu-latest
